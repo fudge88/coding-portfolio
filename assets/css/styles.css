@@ -83,6 +83,14 @@ h4 {
   color: white;
 }
 
+.moon {
+  height: 15rem;
+  position: absolute;
+  top: 12%;
+  left: -8%;
+  animation: movingMoon 25s linear;
+}
+
 .title {
   font-size: 6.5rem;
   margin: 0;
@@ -100,3 +108,26 @@ h4 {
     flex-direction: column;
   }
 }
+
+@keyframes movingMoon {
+  0% {
+    top: 15%;
+    left: 10%;
+  }
+  30% {
+    top: 5%;
+    left: 30%;
+  }
+  40% {
+    top: 3%;
+    left: 40%;
+  }
+  60% {
+    top: 8%;
+    left: 60%;
+  }
+  100% {
+    top: 30%;
+    left: 100%;
+  }
+} ;
