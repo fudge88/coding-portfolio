@@ -88,7 +88,8 @@ h4 {
 /* *********************return to style******************** */
 .nav-item a:hover,
 .nav-logo-img:hover {
-  text-shadow: 0 0 2rem var(--french-violet);
+  color: var(--wisteria);
+  text-shadow: 0 0 2rem var(--celeste);
   padding: 10px;
   border-radius: 25px;
 }
@@ -97,6 +98,11 @@ h4 {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+.nav-icon-container .fa {
+  color: var(--wisteria);
+  text-shadow: 0 0 2rem var(--celeste);
 }
 
 .background-img {
@@ -194,6 +200,7 @@ h4 {
   height: 100%;
   border-radius: 10px;
 }
+
 .project-title {
   position: absolute;
   top: 0;
@@ -206,6 +213,10 @@ h4 {
   font-size: 3rem;
   font-family: "Pacifico", cursive;
   border-radius: 0px 0px 10px 10px;
+}
+/* ****************stop annimation ontitle- NOT WORKING**************** */
+.project-title {
+  animation: none;
 }
 
 /* form styling */
@@ -263,20 +274,20 @@ form {
 }
 
 button {
-  width: 100%;
+  width: 30%;
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
   border: none;
-  background: var(--amethyst);
+  background: var(--dark);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--dark);
+  color: var(--celeste);
   box-shadow: 0 1rem 2rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
 }
 
 button:hover {
-  background: var(--dark);
+  background: var(--amethyst);
   color: var(--white);
   box-shadow: 0 1rem 2rem 0 var(--celeste), 0 1rem 2rem 0 var(--celeste);
 }
