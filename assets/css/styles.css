@@ -50,7 +50,9 @@ h4 {
 
 .nav-item a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 /* *********************return to style******************** */
@@ -67,12 +69,7 @@ h4 {
 
 .background-img {
   height: 600px;
-  background-image: linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.521),
-      rgba(255, 255, 255, 0.932)
-    ),
-    url(../images/mountain0.jpg);
+  background-image: url(../images/mountain0.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -80,7 +77,6 @@ h4 {
 
 .background-img:hover {
   background-image: url(../images/mountain0.jpg);
-  color: white;
 }
 
 .moon {
@@ -100,6 +96,15 @@ h4 {
   transform: translate(-40%, -50%);
 }
 
+.intro {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  transform: translate(-40%, -50%);
+  font-size: 2rem;
+  max-width: 45rem;
+}
+
 @media screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
@@ -111,8 +116,8 @@ h4 {
 
 @keyframes movingMoon {
   0% {
-    top: 15%;
-    left: 10%;
+    top: 20%;
+    left: 5%;
   }
   30% {
     top: 5%;
@@ -130,4 +135,4 @@ h4 {
     top: 30%;
     left: 100%;
   }
-} ;
+}
