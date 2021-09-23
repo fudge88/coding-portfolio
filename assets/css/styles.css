@@ -106,7 +106,7 @@ h4 {
 }
 
 .background-img {
-  height: 600px;
+  height: 700px;
   background-image: url(../images/mountain0.jpg);
   background-position: center;
   background-size: cover;
@@ -119,6 +119,9 @@ h4 {
   top: 12%;
   left: -8%;
   animation: movingMoon 25s linear;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
 }
 
 .title {
@@ -134,7 +137,7 @@ h4 {
 
 .intro {
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5rem;
@@ -144,6 +147,25 @@ h4 {
   padding: 10px;
   border-radius: 25px;
   color: var(--beau-blue);
+}
+
+.profile-img {
+  size: 30%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.profile-img img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .sub-headings {
@@ -189,11 +211,18 @@ h4 {
   box-shadow: 0 1rem 4rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
 }
 
-.project-card :hover {
-  box-shadow: 0 1rem 4rem 0 var(--beau-blue), 0 1rem 2rem 0 var(--beau-blue);
-  animation: growProject 0.8s ease-in-out;
+.project-card .lg-card {
+  width: 60rem;
+  height: 40rem;
+  margin: 2rem;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 1rem 4rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
 }
 
+.project-card :hover {
+  box-shadow: 0 1rem 4rem 0 var(--beau-blue), 0 1rem 2rem 0 var(--beau-blue);
+}
 .project-card img {
   object-fit: contain;
   width: 100%;
@@ -206,17 +235,13 @@ h4 {
   top: 0;
   transform: translate(0, -55%);
   padding: 2rem;
-  background-color: transparent;
+  background-color: none;
   color: var(--dark);
   width: 100%;
   text-align: center;
   font-size: 3rem;
   font-family: "Pacifico", cursive;
   border-radius: 0px 0px 10px 10px;
-}
-/* ****************stop annimation ontitle- NOT WORKING**************** */
-.project-title {
-  animation: none;
 }
 
 /* form styling */
@@ -331,10 +356,14 @@ footer {
     font-size: auto;
   }
   .intro {
-    top: 58%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 70%;
+  }
+  .profile-img {
+    top: 80%;
+    left: 45%;
   }
 
   .sub-headings {
@@ -359,7 +388,11 @@ footer {
   .intro {
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+  }
+
+  .profile-img {
+    top: 76%;
+    left: 45%;
   }
 
   .nav-icon-container {
@@ -382,11 +415,15 @@ footer {
   }
 
   .intro {
-    top: 43%;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
+
+  .profile-img {
+    top: 76%;
+    left: 48%;
+  }
+
   footer {
     display: none;
   }
@@ -442,14 +479,5 @@ footer {
   100% {
     top: 30%;
     left: 100%;
-  }
-}
-
-@keyframes growProject {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
   }
 }

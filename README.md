@@ -91,3 +91,17 @@ You are required to submit BOTH of the following for review:
 - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 # references
+
+flexbox positioning:
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+
+placeholder img:
+https://placeholder.com/
+
+opening links in new tab:
+
+https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html
+
+looping keyframes:
+https://stackoverflow.com/questions/25384314/how-do-i-loop-a-css-animation-with-multiple-keyframe-definitions
