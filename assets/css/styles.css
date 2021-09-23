@@ -1,9 +1,10 @@
 :root {
-  --french-violet: #6f2dbdff;
-  --amethyst: #a663ccff;
+  --french-violet: rgb(111, 45, 189);
+  --amethyst: rgb(166, 99, 204);
   --wisteria: #b298dc;
   --beau-blue: #b8d0ebff;
-  --celeste: #b9faf8ff;
+  --celeste: rgb(183, 250, 248);
+  --dark: #4a2c4a;
   --white: #ffffff;
 }
 
@@ -34,7 +35,22 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--beau-blue);
+  /* background-color: var(--beau-blue); */
+  background-image: linear-gradient(
+    to right,
+    #8b9de0,
+    #999fe1,
+    #a7a1e2,
+    #b3a3e2,
+    #bfa5e2,
+    #c2a4e2,
+    #c6a3e2,
+    #c9a2e2,
+    #c59de3,
+    #c199e4,
+    #bd94e6,
+    #b890e7
+  );
 }
 
 .nav-items-container {
@@ -54,20 +70,25 @@ h4 {
 
 .nav-item {
   margin: 1.5rem;
+  flex: 2;
 }
 
 .nav-item a {
   text-decoration: none;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Pacifico", cursive;
+  color: var(--dark);
+}
+
+.fab {
   color: black;
 }
 
 /* *********************return to style******************** */
 .nav-item a:hover,
 .nav-logo-img:hover {
-  color: var(--white);
+  color: var(--dark);
   text-shadow: 0 0 2rem var(--french-violet);
   padding: 10px;
   border-radius: 25px;
@@ -99,27 +120,26 @@ h4 {
   font-size: 6.5rem;
   margin: 0;
   position: absolute;
-  top: 20%;
-  left: 35%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--dark);
+  text-shadow: 0 0 2rem var(--celeste);
 }
 
 .intro {
   position: absolute;
-  top: 29%;
-  left: 35%;
-  font-size: 2rem;
-  font-weight: 600;
-  max-width: 45rem;
-  text-align: end;
-}
-
-.code-icon {
-  position: absolute;
-  top: 32%;
-  left: 64%;
-  font-size: 6.5rem;
-  font-weight: 600;
-  font-style: italic;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 500;
+  min-width: 0%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.336);
+  padding: 10px;
+  border-radius: 25px;
+  color: var(--beau-blue);
 }
 
 .sub-headings {
@@ -144,7 +164,7 @@ h4 {
   margin: 2rem;
   position: relative;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 var(--amethyst), 0 6px 20px 0 var(--amethyst);
+  box-shadow: 0 2rem 4rem 0 var(--amethyst), 0 2rem 4rem 0 var(--celeste);
 }
 
 .project-card img {
@@ -156,14 +176,15 @@ h4 {
   position: absolute;
   bottom: 0;
   padding: 2rem;
-  background-color: var(--wisteria);
+  background-color: var(--beau-blue);
   width: 100%;
   text-align: center;
   font-size: 2rem;
   border-radius: 0px 0px 10px 10px;
 }
 
-@media screen and (max-width: 576px) {
+/* extra small device */
+@media screen and (max-width: 575.98px) {
   .navbar {
     flex-direction: column;
   }
@@ -177,26 +198,91 @@ h4 {
     display: none;
   }
   .title {
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--wisteria);
     font-size: auto;
   }
   .intro {
-    top: 48%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    min-width: 70%;
   }
-  .code-icon {
-    display: none;
-  }
+
   .sub-headings {
     font-size: auto;
   }
 }
 
+/* small device */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .title {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 4.5rem;
+  }
+
+  .intro {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-icon-container {
+    display: none;
+  }
+  .nav-item a {
+    font-size: 2rem;
+  }
+}
+
+/* medium device */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .title {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 5.5rem;
+  }
+
+  .intro {
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+/* large device */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .title {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 5.5rem;
+  }
+
+  .intro {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+/* extra large device */
+@media (min-width: 1200px) {
+}
+
+/* media query- moon animation */
 @keyframes movingMoon {
   0% {
     top: 20%;
