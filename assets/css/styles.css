@@ -88,7 +88,6 @@ h4 {
 /* *********************return to style******************** */
 .nav-item a:hover,
 .nav-logo-img:hover {
-  color: var(--beau-blue);
   text-shadow: 0 0 2rem var(--french-violet);
   padding: 10px;
   border-radius: 25px;
