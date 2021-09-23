@@ -68,7 +68,7 @@ h4 {
 .nav-item a:hover,
 .nav-logo-img:hover {
   color: var(--white);
-  background-color: var(--wisteria);
+  text-shadow: 0 0 2rem var(--french-violet);
   padding: 10px;
   border-radius: 25px;
 }
@@ -85,10 +85,6 @@ h4 {
   background-position: center;
   background-size: cover;
   position: relative;
-}
-
-.background-img:hover {
-  background-image: url(../images/mountain0.jpg);
 }
 
 .moon {
@@ -117,10 +113,10 @@ h4 {
   text-align: end;
 }
 
-.js-icon {
+.code-icon {
   position: absolute;
   top: 32%;
-  left: 63%;
+  left: 64%;
   font-size: 6.5rem;
   font-weight: 600;
   font-style: italic;
@@ -132,18 +128,23 @@ h4 {
   font-weight: 600;
 }
 
+.click-img-info {
+  text-align: center;
+  font-size: 1.5rem;
+}
 .projects-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  box-shadow: 0 4px 8px 0 var(--amethyst), 0 6px 20px 0 var(--amethyst);
 }
 
 .project-card {
   width: 30rem;
   margin: 2rem;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 var(--amethyst), 0 6px 20px 0 var(--amethyst);
 }
 
 .project-card img {
@@ -188,7 +189,7 @@ h4 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .js-icon {
+  .code-icon {
     display: none;
   }
   .sub-headings {
