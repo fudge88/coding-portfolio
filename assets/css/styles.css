@@ -35,22 +35,6 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* background-color: var(--beau-blue); */
-  /* background-image: linear-gradient(
-    to right,
-    #8b9de0,
-    #999fe1,
-    #a7a1e2,
-    #b3a3e2,
-    #bfa5e2,
-    #c2a4e2,
-    #c6a3e2,
-    #c9a2e2,
-    #c59de3,
-    #c199e4,
-    #bd94e6,
-    #b890e7
-  ); */
 }
 
 .nav-items-container {
