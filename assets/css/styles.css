@@ -146,7 +146,7 @@ h4 {
   font-weight: 600;
 }
 
-.click-img-info {
+.useful-info {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -200,7 +200,7 @@ h4 {
   transform: translate(0, -55%);
   padding: 2rem;
   background-color: transparent;
-  color: var(--white);
+  color: var(--dark);
   width: 100%;
   text-align: center;
   font-size: 3rem;
@@ -238,8 +238,7 @@ textarea {
 
 form {
   position: relative;
-  width: 80%;
-  border-radius: 30px;
+  width: 70%;
   background: transparent;
   text-align: center;
 }
@@ -255,7 +254,7 @@ form {
   padding: 15px;
   margin-bottom: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #d0dfe8;
 }
 
