@@ -88,7 +88,7 @@ h4 {
 /* *********************return to style******************** */
 .nav-item a:hover,
 .nav-logo-img:hover {
-  color: var(--dark);
+  color: var(--beau-blue);
   text-shadow: 0 0 2rem var(--french-violet);
   padding: 10px;
   border-radius: 25px;
@@ -165,6 +165,10 @@ h4 {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 2rem 4rem 0 var(--amethyst), 0 2rem 4rem 0 var(--celeste);
+}
+
+.project-card :hover {
+  animation: growProject 0.8s ease-in-out;
 }
 
 .project-card img {
@@ -303,5 +307,14 @@ h4 {
   100% {
     top: 30%;
     left: 100%;
+  }
+}
+
+@keyframes growProject {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
   }
 }
