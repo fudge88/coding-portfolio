@@ -283,6 +283,8 @@ button:hover {
 /* footer */
 footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons-footer {
@@ -325,6 +327,9 @@ footer {
 
   .sub-headings {
     font-size: auto;
+  }
+  footer {
+    display: none;
   }
 }
 
@@ -370,6 +375,9 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  footer {
+    display: none;
+  }
 }
 
 /* large device */
@@ -389,10 +397,16 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  footer {
+    display: none;
+  }
 }
 
 /* extra large device */
 @media (min-width: 1200px) {
+  footer {
+    display: none;
+  }
 }
 
 /* media query- moon animation */
