@@ -175,7 +175,8 @@ h4 {
 }
 
 .project-card {
-  width: 30rem;
+  width: 50rem;
+  height: 30rem;
   margin: 2rem;
   position: relative;
   border-radius: 10px;
@@ -183,7 +184,7 @@ h4 {
 }
 
 .project-card :hover {
-  box-shadow: 0 1rem 4rem 0 var(--white), 0 1rem 2rem 0 var(--white);
+  box-shadow: 0 1rem 4rem 0 var(--beau-blue), 0 1rem 2rem 0 var(--beau-blue);
   animation: growProject 0.8s ease-in-out;
 }
 
