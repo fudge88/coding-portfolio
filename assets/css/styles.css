@@ -381,6 +381,15 @@ footer {
   footer {
     display: none;
   }
+
+  #lg-project {
+    width: 40rem;
+    height: 30rem;
+  }
+  .lg-project-buttons {
+    bottom: -10%;
+    left: 20%;
+  }
 }
 
 /* small device */
@@ -410,6 +419,15 @@ footer {
   .nav-item a {
     font-size: 2rem;
   }
+
+  #lg-project {
+    width: 60rem;
+    height: 36rem;
+  }
+  .lg-project-buttons {
+    bottom: -10%;
+    left: 30%;
+  }
 }
 
 /* medium device */
@@ -435,6 +453,16 @@ footer {
 
   footer {
     display: none;
+  }
+
+  #lg-project {
+    width: 60rem;
+    height: 35rem;
+  }
+
+  .lg-project-buttons {
+    bottom: -10%;
+    left: 30%;
   }
 }
 
