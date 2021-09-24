@@ -1,17 +1,20 @@
+/* root selector */
 :root {
-  --french-violet: rgb(111, 45, 189);
-  --amethyst: rgb(166, 99, 204);
+  --french-violet: #6f2dbd;
+  --amethyst: #a663cc;
   --wisteria: #b298dc;
   --beau-blue: #b8d0ebff;
-  --celeste: rgb(183, 250, 248);
+  --celeste: #b7faf8;
   --dark: #4a2c4a;
   --white: #ffffff;
 }
 
+/* universal selector */
 * {
   box-sizing: border-box;
 }
 
+/* element selector */
 html,
 body {
   margin: 0;
@@ -29,6 +32,7 @@ h4 {
   font-family: "Pacifico", cursive;
 }
 
+/* navbar styling */
 .navbar {
   display: flex;
   direction: row;
@@ -69,13 +73,11 @@ h4 {
   color: black;
 }
 
-/* *********************return to style******************** */
-.nav-item a:hover,
-.nav-logo-img:hover {
-  color: var(--wisteria);
-  text-shadow: 0 0 2rem var(--celeste);
-  padding: 10px;
-  border-radius: 25px;
+/* pseudo selector used to create a glowing hover effect on nav items */
+.nav-item a:hover {
+  color: var(--amethyst);
+  background-color: var(--beau-blue);
+  box-shadow: 0 0 40px 20px var(--beau-blue), 0 0 100px 50px var(--beau-blue);
 }
 
 .nav-icon-container {
@@ -89,6 +91,8 @@ h4 {
   text-shadow: 0 0 2rem var(--celeste);
 }
 
+/* about me section  */
+/* the background image that under the about me section */
 .background-img {
   height: 700px;
   background-image: url(../images/mountain0.jpg);
@@ -97,6 +101,7 @@ h4 {
   position: relative;
 }
 
+/* key frame used to move the moon across the page */
 .moon {
   height: 15rem;
   position: absolute;
@@ -133,6 +138,7 @@ h4 {
   color: var(--beau-blue);
 }
 
+/* profile image / avatar styling and positioning */
 .profile-img {
   size: 30%;
   width: 100px;
@@ -142,6 +148,7 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .profile-img img {
   display: inline-block;
   width: 150px;
@@ -153,6 +160,7 @@ h4 {
   box-shadow: 0 0 2rem var(--celeste);
 }
 
+/* headings for each section */
 .sub-headings {
   text-align: center;
   font-size: 5rem;
@@ -160,10 +168,14 @@ h4 {
   margin: 25px;
 }
 
+/* user guide/info */
 .useful-info {
   text-align: center;
   font-size: 1.5rem;
 }
+
+/* project section */
+/* the overall container that holds the rest of the project cards */
 .projects-container {
   display: flex;
   flex-direction: row;
@@ -188,6 +200,7 @@ h4 {
   );
 }
 
+/* project cards that hold the image, title and the buttons */
 .project-card {
   width: 40rem;
   height: 20rem;
@@ -214,6 +227,8 @@ h4 {
   bottom: -20%;
   left: 25%;
 }
+
+/* the button positioning for the main img */
 .lg-project-buttons {
   position: absolute;
   bottom: -8%;
@@ -248,11 +263,13 @@ h4 {
   border-radius: 0px 0px 10px 10px;
 }
 
+/* targets the main project to make it bigger */
 #lg-project {
   width: 80rem;
   height: 50rem;
 }
 
+/* line break styling */
 .line-break {
   position: absolute;
   display: block;
@@ -264,12 +281,8 @@ h4 {
   box-shadow: 0 0 2rem var(--celeste);
 }
 
-/* form styling */
-input,
-textarea {
-  outline: none;
-}
-
+/* form content */
+/* form section background image */
 .form-background {
   height: 500px;
   background-image: url(../images/mountain0.jpg);
@@ -308,6 +321,12 @@ form {
   resize: none;
 }
 
+input,
+textarea {
+  outline: none;
+}
+
+/* form submit button */
 .form-button {
   padding: 10px;
   margin-top: 20px;
@@ -320,6 +339,7 @@ form {
   box-shadow: 0 1rem 2rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
 }
 
+/* hover effects for all buttons */
 button:hover {
   background: var(--amethyst);
   color: var(--white);
@@ -338,12 +358,6 @@ footer {
 }
 
 /* media queries */
-@media (min-width: 568px) {
-  form {
-    width: 60%;
-  }
-}
-
 /* extra small device */
 @media screen and (max-width: 575.98px) {
   .navbar {
@@ -495,7 +509,8 @@ footer {
   }
 }
 
-/* media query- moon animation */
+/* keyframes animation */
+/*  moon animation */
 @keyframes movingMoon {
   0% {
     top: 20%;
