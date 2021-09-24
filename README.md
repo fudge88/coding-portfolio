@@ -1,24 +1,18 @@
-# Coding-portfolio
+# Fahra's Coding Portfolio
 
-A responsive, functional website containing all projects completed by myself.
+A fully responsive, functional website containing all projects completed by myself.
 
-View the deployed website by clicking here!
+#### You can view the deployed website by [clicking here!](https://fudge88.github.io/coding-portfolio/)
 
-## Your Task
+Your portfolio is a way to communicate your skills, but it’s also a way to communicate your personality, your goals and how you got to where you are.
 
-An effective portfolio highlighting my work as well as the thought processes behind it. These are deployed web applications (meaning they are live on the web).
+_The following animation shows the web application's appearance and functionality:_
 
-## languages:
+![portfolio demo](./assets/images/website.gif)
 
-HTML
-CSS
+## Summary
 
-## tools:
-
-flexbox
-media queries
-font awesome
-google fonts
+An effective portfolio highlighting projects to date, as well as the thought processes behind them. These are deployed web applications (meaning they are live on the web), where the user is able to view projects and and the code behind it by a single click.
 
 ## User Story
 
@@ -46,65 +40,64 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Tools Used:
+
+- Flexbox
+- Media queries
+- Font awesome
+- Google fonts
+- Keyframes
+
+#### Languages:
+
+- HTML
+- CSS
+
+#### Flexbox
+
+The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+The following image shows the web application's cards that were created using Flexbox.
+
+![clicking here!](./assets/images/website-screenshot1.PNG)
+
+Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
+
+If “regular” layout is based on both block and inline flow directions, the flex layout is based on “flex-flow  
+directions”.
+
 ## Wireframes
 
-The following animation shows the web application's appearance and functionality, at the skeleton stage:
+The use of wireframes helps to create a visual format of the end product, this is a rough guide of  
+how the finished site should aim to look.
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![alt text](./assets/images/wireframes.jpg)
 
-### Technical Acceptance Criteria: 40%
+These wireframes were created using [miro](https://miro.com/app/dashboard/) this allowed me to create a large, medium and a small screen mock-up of how my portfolio would look. The main difference between the different screen sizes
+is the number of columns used to display my projects.
 
-- Satisfies all of the above acceptance criteria.
+## Features
 
-### Deployment: 32%
+- Apart from using the functionality of 'Flexbox' for the responsiveness of the site.
+- I used `@media` queries to help tune the styling for specific screen width ranges. I used `@media` queries to hide the social icons from appearing on the navbar for the screen range of 576px to 767.98px, for this the social icons appear in the footer instead.
+- I also used `@keyframes` to create an animation targeting the moon image instructing it to float across the page.
 
-- Application deployed at live URL.
+## references
 
-- Application loads with no errors.
+[Flexbox positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
 
-- Application GitHub URL submitted.
+[Opening links in new tab](https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html)
 
-- GitHub repository contains application code.
+[Looping keyframes](https://stackoverflow.com/questions/25384314/how-do-i-loop-a-css-animation-with-multiple-keyframe-definitions)
 
-### Application Quality: 15%
+[Hover: transition](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/)
 
-- Application resembles the mock-up functionality provided in the homework instructions.
+[Link glow effect](https://codersblock.com/blog/creating-glow-effects-with-css/)
 
-### Repository Quality: 13%
+[Contact Form](https://www.w3docs.com/tools/editor/5876)
 
-- Repository has a unique name.
+[Webm to Gif converter](https://cloudconvert.com/webm-to-gif)
 
-- Repository follows best practices for file structure and naming conventions.
+[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-- The URL of the deployed application.
-
-- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-# references
-
-flexbox positioning:
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
-
-placeholder img:
-https://placeholder.com/
-
-opening links in new tab:
-
-https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-html
-
-looping keyframes:
-https://stackoverflow.com/questions/25384314/how-do-i-loop-a-css-animation-with-multiple-keyframe-definitions
-
-hover: transition:
-https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
+[Screencastify - screen recording](https://www.screencastify.com/)
