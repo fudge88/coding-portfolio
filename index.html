@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <!-- font awesome link -->
     <link
       rel="stylesheet"
@@ -19,6 +20,7 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+
     <!-- css link -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Fahra Akhlaq | Fullstack Engineer</title>
@@ -28,7 +30,7 @@
     <header>
       <!-- nav bar -->
       <nav class="navbar">
-        <!-- branding logo -->
+        <!-- branding logo img-->
         <div class="nav-logo">
           <img
             src="./assets/images/b-logo.png"
@@ -50,13 +52,15 @@
           </div>
         </div>
 
+        <!-- social icons -->
         <div class="nav-icon-container">
-          <!-- social icons -->
+          <!-- linkedIn icon -->
           <div class="nav-item">
             <a href="https://www.linkedin.com/in/f-akhlaq/" target="_blank"
               ><i class="fab fa-linkedin fa-lg"></i
             ></a>
           </div>
+          <!-- github icon -->
           <div class="nav-item">
             <a href="https://github.com/fudge88" target="_blank"
               ><i class="fab fa-github fa-lg"></i
@@ -76,6 +80,8 @@
           class="moon"
         />
       </div>
+
+      <!-- 'about me' content -->
       <h1 class="title">Fullstack Developer</h1>
       <p class="intro">
         Hello, I'm Fahra, and I'm a Midlands based Fullstack Web Developer.
@@ -87,90 +93,138 @@
     </div>
 
     <main>
+      <!-- 'projects' content -->
       <section>
         <h2 id="projects" class="sub-headings">Projects</h2>
         <p class="useful-info">Click the images to visit project</p>
 
+        <!-- large project section -->
         <div class="projects-container">
+          <!-- large project card -->
           <div class="project-card" id="lg-project">
             <div class="project-title">Project Horiseon</div>
-            <a href="https://fudge88.github.io/code-refactoring/" target="_blank"><img
-              src="./assets/images/project1.PNG"
-              alt="image of project one"
+            <!-- image wrapped in hyperlink for homework purposes-->
+            <a
+              href="https://fudge88.github.io/code-refactoring/"
+              target="_blank"
+              ><img src="./assets/images/project.PNG" alt="image of project"
             /></a>
+            <!-- buttons for repo and live website -->
             <div class="lg-project-buttons">
-              <a href="https://fudge88.github.io/code-refactoring/" target="_blank"><button class="project-live-buttons">Live</button></a>
-              <a href="https://github.com/fudge88/code-refactoring" target="_blank"><button class="project-repo-buttons">Repo</button></a>
+              <a
+                href="https://fudge88.github.io/code-refactoring/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/code-refactoring"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
             </div>
           </div>
         </div>
-          <!-- <div class="line-break"></div> -->
-        </div>
+
+        <!-- line break -->
+        <!-- although i can use br i chose to use a div based on my research on 'stackoverflow' -->
         <div class="line-break"></div>
+
+        <!-- regular project cards section -->
         <div class="projects-container">
+          <!-- regular project card 1 -->
           <div class="project-card">
             <div class="project-title">MiuMiu Cosmetics</div>
             <img
-              src="./assets/images/project2.PNG"
+              src="./assets/images/project1.PNG"
               alt="image of project one"
             />
+            <!-- buttons for repo and live website -->
             <div class="project-buttons">
-              <a href="https://miumiu-aesthetics.herokuapp.com/" target="_blank"><button class="project-live-buttons">Live</button></a>
-              <a href="https://github.com/fudge88/miumiu" target="_blank"><button class="project-repo-buttons">Repo</button></a>
+              <a href="https://miumiu-aesthetics.herokuapp.com/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/miumiu" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
             </div>
           </div>
 
+          <!-- regular project card 2 -->
           <div class="project-card">
             <div class="project-title">Movie Muncher</div>
             <img
-              src="./assets/images/project3.PNG"
-              alt="image of project one"
+              src="./assets/images/project2.PNG"
+              alt="image of project two"
             />
             <div class="project-buttons">
-              <a href="https://fudge88.github.io/MS2-Movies/" target="_blank"><button class="project-live-buttons">Live</button></a>
-              <a href="https://github.com/fudge88/MS2-Movies" target="_blank"><button class="project-repo-buttons">Repo</button></a>
+              <!-- buttons for repo and live website -->
+              <a href="https://fudge88.github.io/MS2-Movies/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/MS2-Movies" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
             </div>
           </div>
 
+          <!-- regular project card 3 -->
           <div class="project-card">
             <div class="project-title">Injectables Inc</div>
             <img
-              src="./assets/images/project4.PNG"
-              alt="image of project one"
+              src="./assets/images/project3.PNG"
+              alt="image of project three"
             />
+            <!-- buttons for repo and live website -->
             <div class="project-buttons">
-              <a href="https://fudge88.github.io/MS1-Injectables-Inc/" target="_blank"><button class="project-live-buttons">Live</button></a>
-              <a href="https://github.com/fudge88/MS1-Injectables-Inc" target="_blank"><button class="project-repo-buttons">Repo</button></a>
+              <a
+                href="https://fudge88.github.io/MS1-Injectables-Inc/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/MS1-Injectables-Inc"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
             </div>
           </div>
+
+          <!-- regular project card 4 -->
           <div class="project-card">
             <div class="project-title">Coming Soon</div>
             <img
               src="./assets/images/placeholder.png"
-              alt="image of project one"
+              alt="image of project four"
             />
+            <!-- buttons for repo and live website -->
             <div class="project-buttons">
               <button class="project-live-buttons">Live</button>
               <button class="project-repo-buttons">Repo</button>
             </div>
           </div>
+
+          <!-- regular project card 5 -->
           <div class="project-card">
             <div class="project-title">Coming Soon</div>
             <img
               src="./assets/images/placeholder.png"
-              alt="image of project one"
+              alt="image of project five"
             />
+            <!-- buttons for repo and live website -->
             <div class="project-buttons">
               <button class="project-live-buttons">Live</button>
               <button class="project-repo-buttons">Repo</button>
             </div>
           </div>
+
+          <!-- regular project card 6 -->
           <div class="project-card">
             <div class="project-title">Coming Soon</div>
             <img
               src="./assets/images/placeholder.png"
-              alt="image of project one"
+              alt="image of project six"
             />
+            <!-- buttons for repo and live website -->
             <div class="project-buttons">
               <button class="project-live-buttons">Live</button>
               <button class="project-repo-buttons">Repo</button>
@@ -179,28 +233,38 @@
         </div>
       </section>
 
+      <!-- 'contact' content -->
       <section>
+        <!-- subheading and note to user -->
         <h2 id="contact" class="sub-headings">Contact Me</h2>
         <p class="useful-info">Please complete this form in a direct manner</p>
+        <!-- background image in css -->
         <div class="form-background">
+          <!-- form -->
+          <!-- please note that the form code was taken from an external website -->
+          <!-- please see read me for reference -->
           <form action="/" class="decor">
             <div class="form-inner">
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />
               <textarea placeholder="Message..." rows="5"></textarea>
+              <!-- form button -->
               <button class="form-button" type="submit" href="/">Submit</button>
             </div>
           </form>
         </div>
       </section>
 
+      <!-- footer for social icons - to be displayed only in 576px - 767.98px screen width -->
       <footer>
         <div class="social-icons-footer">
+          <!-- linked in -->
           <div class="nav-item">
             <a href="https://www.linkedin.com/in/f-akhlaq/" target="_blank"
               ><i class="fab fa-linkedin fa-lg"></i
             ></a>
           </div>
+          <!-- github -->
           <div class="nav-item">
             <a href="https://github.com/fudge88" target="_blank"
               ><i class="fab fa-github fa-lg"></i
