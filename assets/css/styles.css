@@ -212,19 +212,19 @@ h4 {
 .project-buttons {
   position: absolute;
   bottom: -20%;
-  left: 20%;
+  left: 25%;
 }
 .lg-project-buttons {
   position: absolute;
   bottom: -8%;
-  left: 36%;
+  left: 40%;
 }
 
 .project-live-buttons,
 .project-repo-buttons {
   display: inline-block;
-  height: 50px;
-  width: 100px;
+  height: 45px;
+  width: 80px;
   padding: 10px;
   border-radius: 20px;
   border: none;
@@ -388,7 +388,7 @@ footer {
   }
   .lg-project-buttons {
     bottom: -10%;
-    left: 20%;
+    left: 25%;
   }
 }
 
@@ -426,7 +426,7 @@ footer {
   }
   .lg-project-buttons {
     bottom: -10%;
-    left: 30%;
+    left: 35%;
   }
 }
 
@@ -462,7 +462,7 @@ footer {
 
   .lg-project-buttons {
     bottom: -10%;
-    left: 30%;
+    left: 35%;
   }
 }
 
