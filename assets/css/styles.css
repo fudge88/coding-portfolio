@@ -191,7 +191,7 @@ h4 {
 .project-card {
   width: 40rem;
   height: 20rem;
-  margin: 4rem;
+  margin: 5rem 3rem;
   position: relative;
   border-radius: 10px;
   box-shadow: 0 1rem 4rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
