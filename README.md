@@ -105,3 +105,6 @@ https://stackoverflow.com/questions/17711146/how-to-open-link-in-a-new-tab-in-ht
 
 looping keyframes:
 https://stackoverflow.com/questions/25384314/how-do-i-loop-a-css-animation-with-multiple-keyframe-definitions
+
+hover: transition:
+https://travis.media/how-to-make-an-item-grow-on-hover-with-css/

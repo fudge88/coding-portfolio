@@ -170,7 +170,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* padding: 50px 0; */
+  padding: 50px 0;
   background-image: linear-gradient(
     to right,
     #8b9de0,
@@ -200,21 +200,8 @@ h4 {
 
 .project-card:hover {
   transform: scale(1.2);
+  z-index: 2;
 }
-
-/* 
-.project-card .lg-card {
-  width: 60rem;
-  height: 40rem;
-  margin: 2rem;
-  position: relative;
-  border-radius: 10px;
-  box-shadow: 0 1rem 4rem 0 var(--dark), 0 1rem 2rem 0 var(--celeste);
-} */
-
-/* .project-card :hover {
-  box-shadow: 0 1rem 4rem 0 var(--beau-blue), 0 1rem 2rem 0 var(--beau-blue);
-} */
 
 .project-card img {
   width: 100%;
@@ -254,6 +241,17 @@ h4 {
   text-align: center;
   font-size: 4rem;
   border-radius: 0px 0px 10px 10px;
+}
+
+.line-break {
+  position: absolute;
+  display: block;
+  left: 25%;
+  border-radius: 70%;
+  width: 50%;
+  height: 5px;
+  background-color: var(--wisteria);
+  box-shadow: 0 0 2rem var(--celeste);
 }
 
 /* form styling */
