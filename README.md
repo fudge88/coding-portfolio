@@ -101,3 +101,7 @@ is the number of columns used to display my projects.
 [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
 [Screencastify - screen recording](https://www.screencastify.com/)
+
+## License
+
+This project is licensed under the terms of the MIT license.
