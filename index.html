@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Fahra Akhlaq | Fullstack Engineer</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- nav bar -->
+      <nav class="navbar">
+        <!-- branding logo img-->
+        <div class="nav-logo">
+          <img
+            src="./assets/images/b-logo.png"
+            alt="fahra akhlaq logo"
+            class="nav-logo-img"
+          />
+        </div>
+
+        <!-- nav links -->
+        <div class="nav-items-container">
+          <div class="nav-item">
+            <a href="#about">About</a>
+          </div>
+          <div class="nav-item">
+            <a href="#projects">Projects</a>
+          </div>
+          <div class="nav-item">
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <!-- social icons -->
+        <div class="nav-icon-container">
+          <!-- linkedIn icon -->
+          <div class="nav-item">
+            <a href="https://www.linkedin.com/in/f-akhlaq/" target="_blank"
+              ><i class="fab fa-linkedin fa-lg"></i
+            ></a>
+          </div>
+          <!-- github icon -->
+          <div class="nav-item">
+            <a href="https://github.com/fudge88" target="_blank"
+              ><i class="fab fa-github fa-lg"></i
+            ></a>
+          </div>
+          <!-- CV Download -->
+          <div class="nav-item">
+            <a href="./assets/download/cv.pdf" download="cv.pdf" target="_blank"
+              ><i class="fas fa-file-download fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main background image -->
+    <div id="about" class="background-img">
+      <!-- animated moon -->
+      <div>
+        <img
+          src="./assets/images/moon1.png"
+          alt="image of a moon"
+          class="moon"
+        />
+      </div>
+
+      <!-- 'about me' content -->
+      <h1 class="title">Fullstack Developer</h1>
+      <p class="intro">
+        Hello, I'm Fahra, and I'm a Midlands based Fullstack Web Developer.
+        Skilled in Design, HTML, CSS, JavaScript, and much more.
+      </p>
+      <div class="profile-img">
+        <img src="./assets/images/profile.PNG" alt="avatar profile image" />
+      </div>
+    </div>
+
+    <main>
+      <!-- 'projects' content -->
+      <section>
+        <h2 id="projects" class="sub-headings">Projects</h2>
+        <p class="useful-info">Click the images to visit project</p>
+
+        <!-- large project section -->
+        <div class="projects-container">
+          <!-- large project card -->
+          <div class="project-card" id="lg-project">
+            <div class="project-title">Foodtopia</div>
+            <!-- image wrapped in hyperlink for homework purposes-->
+            <a href="https://fudge88.github.io/foodtopia/" target="_blank"
+              ><img src="./assets/images/foodtopia.png" alt="image of project"
+            /></a>
+            <!-- buttons for repo and live website -->
+            <div class="lg-project-buttons">
+              <a href="https://fudge88.github.io/foodtopia/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/foodtopia" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- line break -->
+        <!-- although i can use br i chose to use a div based on my research on 'stackoverflow' -->
+        <div class="line-break"></div>
+
+        <!-- regular project cards section -->
+        <div class="projects-container">
+          <!-- regular project card 1 -->
+          <div class="project-card">
+            <div class="project-title">Weather Dashboard</div>
+            <img src="./assets/images/weather.png" alt="image of project one" />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a
+                href="https://fudge88.github.io/weather-dashoard/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/weather-dashoard/tree/dev"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 2 -->
+          <div class="project-card">
+            <div class="project-title">Crush Dating App</div>
+            <img src="./assets/images/homess.PNG" alt="image of project two" />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a href="https://crush-app-2022.herokuapp.com/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/dating-app" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 2 -->
+          <div class="project-card">
+            <div class="project-title">Crime Quiz</div>
+            <img src="./assets/images/quiz.png" alt="image of project one" />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a
+                href="https://fudge88.github.io/javascript-multiple-choice-challange/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/javascript-multiple-choice-challange/tree/dev"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 3 -->
+          <div class="project-card">
+            <div class="project-title">Day Planner</div>
+            <img
+              src="./assets/images/dayplanner.png"
+              alt="image of project one"
+            />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a
+                href="https://fudge88.github.io/day-planner-app/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/day-planner-app/tree/dev"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 4 -->
+          <div class="project-card">
+            <div class="project-title">MiuMiu Cosmetics</div>
+            <img
+              src="./assets/images/project1.PNG"
+              alt="image of project one"
+            />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a href="https://miumiu-aesthetics.herokuapp.com/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/miumiu" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 5 -->
+          <div class="project-card">
+            <div class="project-title">Movie Muncher</div>
+            <img
+              src="./assets/images/project2.PNG"
+              alt="image of project two"
+            />
+            <div class="project-buttons">
+              <!-- buttons for repo and live website -->
+              <a href="https://fudge88.github.io/MS2-Movies/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a href="https://github.com/fudge88/MS2-Movies" target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 6 -->
+          <div class="project-card">
+            <div class="project-title">Injectables Inc</div>
+            <img
+              src="./assets/images/project3.PNG"
+              alt="image of project three"
+            />
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a
+                href="https://fudge88.github.io/MS1-Injectables-Inc/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/MS1-Injectables-Inc"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- regular project card 7 -->
+          <div class="project-card">
+            <div class="project-title">Horiseon</div>
+            <a
+              href="https://fudge88.github.io/code-refactoring/"
+              target="_blank"
+              ><img src="./assets/images/project.PNG" alt="image of project"
+            /></a>
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a
+                href="https://fudge88.github.io/code-refactoring/"
+                target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/code-refactoring"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+
+          <!-- mvc blog -->
+          <div class="project-card">
+            <div class="project-title">MVC Blog</div>
+            <a href="https://mvc-trekking-blog.herokuapp.com/" target="_blank"
+              ><img src="./assets/images/mvc.PNG" alt="image of project"
+            /></a>
+            <!-- buttons for repo and live website -->
+            <div class="project-buttons">
+              <a href="https://mvc-trekking-blog.herokuapp.com/" target="_blank"
+                ><button class="project-live-buttons">Live</button></a
+              >
+              <a
+                href="https://github.com/fudge88/mvc-blog/tree/dev"
+                target="_blank"
+                ><button class="project-repo-buttons">Repo</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 'contact' content -->
+      <section>
+        <!-- subheading and note to user -->
+        <h2 id="contact" class="sub-headings">Contact Me</h2>
+        <p class="useful-info">
+          Alternatively you can email me directly on akhlaq.fahra@gmail.com
+        </p>
+        <!-- background image in css -->
+        <div class="form-background">
+          <!-- form -->
+          <!-- please note that the form code was taken from an external website -->
+          <!-- please see read me for reference -->
+          <form action="/" class="decor">
+            <div class="form-inner">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <textarea placeholder="Message..." rows="5"></textarea>
+              <!-- form button -->
+              <button class="form-button" type="submit" href="/">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- footer for social icons - to be displayed only in 576px - 767.98px screen width -->
+      <footer>
+        <div class="social-icons-footer">
+          <!-- linked in -->
+          <div class="nav-item">
+            <a href="https://www.linkedin.com/in/f-akhlaq/" target="_blank"
+              ><i class="fab fa-linkedin fa-lg"></i
+            ></a>
+          </div>
+          <!-- github -->
+          <div class="nav-item">
+            <a href="https://github.com/fudge88" target="_blank"
+              ><i class="fab fa-github fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
